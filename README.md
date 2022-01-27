@@ -1,5 +1,7 @@
 # Example for Emulating AWS API errors
 
+[日本語](README.ja.md)
+
 This is an example application that uses a custom AWS endpoint to emulate an AWS error occurrence on your local machine.
 
 ## Abstract
