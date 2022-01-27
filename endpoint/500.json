@@ -1,0 +1,22 @@
+{
+    "Error": {
+      "Code": "InternalError", 
+      "Message": "An internal error has occurred"
+    }, 
+    "ResponseMetadata": {
+      "RequestId": "abcdef01-2345-6789-abcd-ef0123456789", 
+      "HTTPStatusCode": 500, 
+      "HTTPHeaders": {
+        "x-amz-simulated-fault": "true", 
+        "x-amzn-requestid": "abcdef01-2345-6789-abcd-ef0123456789", 
+        "cache-control": "no-cache, no-store", 
+        "strict-transport-security": "max-age=31536000; includeSubDomains", 
+        "transfer-encoding": "chunked", 
+        "date": "Fri, 16 Apr 2021 14:37:47 GMT", 
+        "connection": "close", 
+        "server": "AmazonEC2"
+      }, 
+      "MaxAttemptsReached": true, 
+      "RetryAttempts": 4
+    }
+}
