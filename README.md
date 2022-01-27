@@ -1,8 +1,8 @@
-# Example for Emulating AWS API errors
+# Example for Simulating AWS API errors
 
 [日本語](README.ja.md)
 
-This is an example application that uses a custom AWS endpoint to emulate an AWS error occurrence on your local machine.
+This is an example application that uses a custom AWS endpoint to simulate an AWS error occurrence on your local machine.
 
 ## Abstract
 
@@ -18,9 +18,9 @@ If `endpoint_url` is `None`, SDK connect AWS endpoint.
 
 **The error message returned from this sample endpoint is different from the actual one.**
 
-### If you want to emulate on AWS...
+### If you want to simulate on AWS...
 
-If you want to emulate this on AWS, you can use API Gateway's Mock response for your custom endpoint.
+If you want to simulate this on AWS, you can use API Gateway's Mock response for your custom endpoint.
 
 ## Pre-Requirements
 
